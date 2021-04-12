@@ -17,7 +17,7 @@ home_name <- "Real Salt Lake"
 away_name <- "Vancouver Whitecaps"
 home_status <- TRUE #Whether or not the game is at the home team's stadium
 match_date_raw <- "09/19/2020"
-return_what <- "chances"
+return_what <- 1 #"chances"
 bos <- FALSE #Set if this is the first game of the season
 starting_elo <- 1500 #The value used as the starting/average Elo
 
@@ -61,7 +61,7 @@ if ((marks[1,1] - marks[2,1]) == 1){ #This detects if there are no previous game
                            team_score = team_data[[2]][marks[3]:marks[4],"A_Score"],
                            opp_score = team_data[[2]][marks[3]:marks[4],"B_Score"],
                            team_home = team_data[[2]][marks[3]:marks[4],"A_Home"],
-                           team_away = team_data[[2]][marks[3]:marks[4],"B_Home"],
+                           opp_home = team_data[[2]][marks[3]:marks[4],"B_Home"],
                            weight = team_data[[2]][marks[3]:marks[4],"Weight"])
 }else if ((marks[1,2] - marks[2,2]) == 1){
   away_elo <- starting_elo
@@ -72,7 +72,7 @@ if ((marks[1,1] - marks[2,1]) == 1){ #This detects if there are no previous game
                           team_score = team_data[[1]][marks[1]:marks[2],"A_Score"],
                           opp_score = team_data[[1]][marks[1]:marks[2],"B_Score"],
                           team_home = team_data[[1]][marks[1]:marks[2],"A_Home"],
-                          team_away = team_data[[1]][marks[1]:marks[2],"B_Home"],
+                          opp_home = team_data[[1]][marks[1]:marks[2],"B_Home"],
                           weight = team_data[[1]][marks[1]:marks[2],"Weight"])
   
   away_data <-  data.frame()

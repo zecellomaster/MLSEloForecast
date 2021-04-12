@@ -1,31 +1,31 @@
-﻿Team Name,Look For,1st Color,2nd Color,3rd Color
-Colorado Rapids,COL,#862633,#8BB8E8,#8D9093
-Columbus Crew SC,CLB,#FEF200,#231F20,N/A
-D.C. United,DCU,#EE1A39,#231F20,N/A
-FC Dallas,DAL,#D11241,#003E7E,#D1D5D8
-Sporting Kansas City,SKC,#93B1D7,#002A5C,#A0A1A5
-Los Angeles Galaxy,LAG,#00245D,#FFD200,#0065A4
-New England Revolution,NER,#002B5C,#E51938,N/A
-New York Red Bulls,NYR,#E31351,#002F65,#FFC425
-San Jose Earthquakes,SJE,#30457A,#1F1F1F,#A42A35
-Tampa Bay Mutiny,TBM,#003366,N/A,N/A
-Chicago Fire,CHI,#121F48,#B3272D,#909191
-Miami Fusion,MFC,#3f80BC,N/A,N/A
-Chivas USA,CHV,#E2141D,#104E8A,#E0DFE0
-Real Salt Lake,RSL,#B30838,#013A81,#F5E700
-Houston Dynamo,HOU,#F4911E,#92C3F1,#231F20
-Toronto FC,TOR,#AB1E2D,#3F4743,#A3AAAD
-Seattle Sounders FC,SEA,#658D1B,#236192,#1D252D
-Philadelphia Union,PHI,#002D55,#5090CD,#B49759
-Vancouver Whitecaps,VAN,#04265C,#94C2E4,#84868C
-Portland Timbers,POR,#00482B,#D69A00,N/A
-CF Montreal,MTL,#2B63AD,#28477D,#373536
-Orlando City SC,ORL,#61259E,#FFE293,#1f325a
-New York City FC,NYF,#6CACE4,#041E42,#F15524
-Minnesota United,MIN,#585958,#D8DAD9,#9BCDE4
-Atlanta United,ATL,#80000A,#221F1F,#A19060
-Los Angeles FC,LAF,#000000,#C39E6D,#55565A
-FC Cincinnati,CIN,#FE5000,#003087,#041E42
-Inter Miami CF,MIA,#F7B5CD,#231F20,N/A
-Nashville SC,NAS,#F6D04E,#1F325A,N/A
-Austin FC,AUS,#00B140,#000000,N/A
+﻿Team_Name,Look_For,Alt_Names,Conference,1st_Color,2nd_Color,3rd_Color
+Colorado Rapids,COL,Colorado,W,#862633,#8BB8E8,#8D9093
+Columbus Crew SC,CLB,Columbus,E,#FEF200,#231F20,N/A
+D.C. United,DCU,D.C. United,E,#EE1A39,#231F20,N/A
+FC Dallas,DAL,FC Dallas,W,#D11241,#003E7E,#D1D5D8
+Sporting Kansas City,SKC,Sporting KC,W,#93B1D7,#002A5C,#A0A1A5
+Los Angeles Galaxy,LAG,LA Galaxy,W,#00245D,#FFD200,#0065A4
+New England Revolution,NER,New England,E,#002B5C,#E51938,N/A
+New York Red Bulls,NYR,NY Red Bulls,E,#E31351,#002F65,#FFC425
+San Jose Earthquakes,SJE,San Jose,W,#30457A,#1F1F1F,#A42A35
+Tampa Bay Mutiny,TBM,N/A,N/A,#003366,N/A,N/A
+Chicago Fire,CHI,Chicago,E,#121F48,#B3272D,#909191
+Miami Fusion,MFC,N/A,N/A,#3f80BC,N/A,N/A
+Chivas USA,CHV,N/A,N/A,#E2141D,#104E8A,#E0DFE0
+Real Salt Lake,RSL,Real Salt Lake,W,#B30838,#013A81,#F5E700
+Houston Dynamo,HOU,Houston,W,#F4911E,#92C3F1,#231F20
+Toronto FC,TOR,Toronto FC,E,#AB1E2D,#3F4743,#A3AAAD
+Seattle Sounders FC,SEA,Seattle,W,#658D1B,#236192,#1D252D
+Philadelphia Union,PHI,Philadelphia,E,#002D55,#5090CD,#B49759
+Vancouver Whitecaps,VAN,Vancouver,W,#04265C,#94C2E4,#84868C
+Portland Timbers,POR,Portland,W,#00482B,#D69A00,N/A
+CF Montreal,MTL,CF Montréal,E,#2B63AD,#28477D,#373536
+Orlando City SC,ORL,Orlando City,E,#61259E,#FFE293,#1f325a
+New York City FC,NYF,NYCFC,E,#6CACE4,#041E42,#F15524
+Minnesota United,MIN,Minnesota,W,#585958,#D8DAD9,#9BCDE4
+Atlanta United,ATL,Atlanta,E,#80000A,#221F1F,#A19060
+Los Angeles FC,LAF,Los Angeles FC,W,#000000,#C39E6D,#55565A
+FC Cincinnati,CIN,FC Cincinnati,E,#FE5000,#003087,#041E42
+Inter Miami CF,MIA,Miami,E,#F7B5CD,#231F20,N/A
+Nashville SC,NAS,Nashville,E,#F6D04E,#1F325A,N/A
+Austin FC,AUS,Austin FC,W,#00B140,#000000,N/A

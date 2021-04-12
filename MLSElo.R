@@ -1,6 +1,6 @@
 #File: MLSElo.R
 #Author: zecellomaster
-#Date: 03/07/21 (v1.2)
+#Date: 03/07/21 (v1.3)
 #Description: This program will utilize MLS Score data to formulate an Elo Score
 #             for each team. This will include defunct teams as well. New teams 
 #             always start with 1,500 points, and after every season, the points 
@@ -13,10 +13,10 @@
 #       - Changed k_constant weights
 #(v1.2) - Changed end of season regression (1/3 -> 1/4)
 #       - Changed k_constant weights
+#(v1.3) - Optimization
 rm(list = ls())
 
-#First, we input the files (You can use "=" or "<-" to assign values, but the latter
-#is recommended for variables and the former is used in function calls)
+#First, we input the files
 match_data_location <- "./Data/MLSmatchesRefined.csv"
 name_location <-"./Data/MLS Names.csv"
 team_format_location <- "./Data/Team Data Format.csv"
@@ -30,22 +30,22 @@ team_names <-  read.csv(name_location,header = TRUE, fileEncoding="UTF-8-BOM")
 starting_elo <- 1500
 
 #Here, we store the current Elo ratings for all the teams. 
-current_elo <- data.frame(team_names[,1]) #Full name
-current_elo[,"Abbreviations"] <- data.frame(team_names[,2]) #Abbreviations
+current_elo <- team_names[,c("Team_Name","Look_For","Alt_Names")]
+names(current_elo)[2] <- "Abbr"
 current_elo[,"Elo"] <- starting_elo #Elo
   
 #This part will store a team's Elo ratings. We form a list using the names of
 #the teams
-elo_history <- vector(mode= "list", length = 30)
+elo_history <- vector(mode= "list", dim(team_names)[1])
 names(elo_history) <- team_names[,1]
 
-#We set the lis where team Elos and dates can be stored
+#We set the list where team Elos and dates can be stored
 for (i in 1:dim(team_names)[1]){
   elo_history[[i]] <- data_format
 }
 
 #Set up the identifying variables
-game_type <- data.frame(game_type = c("RS","PI","C-QF", "C-SF", "C-F", "Cup"), 
+game_type <- data.frame(level = c("RS","PI","C-QF", "C-SF", "C-F", "Cup"), 
                         game_rating = c(20,25,30,40,50,60))
 
 #game_rating = c(30,35,45,45,60,60)
@@ -55,40 +55,40 @@ game_type <- data.frame(game_type = c("RS","PI","C-QF", "C-SF", "C-F", "Cup"),
 
 
 for (i in 1:dim(raw_match_data)[1]){
-  current_year <- raw_match_data[i,"year"]
+  current_year <- raw_match_data$year[i]
   
-  if (grepl("All-Stars", raw_match_data[i,"home"], fixed = TRUE) |
-      grepl("All-Stars", raw_match_data[i,"away"], fixed = TRUE)){
+  if (grepl("All-Stars", raw_match_data$home[i], fixed = TRUE) |
+      grepl("All-Stars", raw_match_data$away[i], fixed = TRUE)){
         next 
       }
   
   #This part is because the dates after this point put the years in a different column
   if (i >= 974){
-    current_date <- as.Date(paste(raw_match_data[i,"date"], current_year
+    current_date <- as.Date(paste(raw_match_data$date[i], current_year
                                   , sep = ","),format= "%A, %B %d,%Y")
   }else{
-    current_date <- raw_match_data[i,"date"]
+    current_date <- raw_match_data$date[i]
     
   }
   
   #This part deals with the post-season readjustment
   if (i != 1){
-    if (current_year != raw_match_data[i-1,"year"] ){
-      current_elo[,"Elo"] <- round((current_elo[,"Elo"]*3/4) + (starting_elo/4))
+    if (current_year != raw_match_data$year[i-1] ){
+      current_elo$Elo <- round((current_elo$Elo*3/4) + (starting_elo/4))
     }
   }
   
   
   #Items are as follows: Team name, Team score
-  home_index <- grep(raw_match_data[i,"home"],current_elo[,2])
-  away_index <- grep(raw_match_data[i,"away"],current_elo[,2])
+  home_index <- grep(raw_match_data$home[i],current_elo$Abbr)
+  away_index <- grep(raw_match_data$away[i],current_elo$Abbr)
   
   
-  home_elo <- current_elo[home_index,"Elo"]
-  away_elo <- current_elo[away_index,"Elo"]
+  home_elo <- current_elo$Elo[home_index]
+  away_elo <- current_elo$Elo[away_index]
   
   #This part calculates the win percentage and if the game is a neutral arena
-  if (raw_match_data[i,"neutral"] == FALSE){
+  if (raw_match_data$neutral[i] == FALSE){
     if_home <- TRUE
     home_win_exp <- 1/((10^((-(home_elo - away_elo + 100))/400)+1))
     
@@ -100,11 +100,11 @@ for (i in 1:dim(raw_match_data)[1]){
   
   away_win_exp <- 1 - home_win_exp
   
-  home_stats <- c(raw_match_data[i,"home"], raw_match_data[i,"home_score"])
-  away_stats <- c(raw_match_data[i,"away"], raw_match_data[i,"away_score"])
+  home_stats <- c(raw_match_data$home[i], raw_match_data$home_score[i])
+  away_stats <- c(raw_match_data$away[i], raw_match_data$away_score[i])
 
   #Here we use the type of match to determine its significance
-  k_value <- game_type[grep(raw_match_data[i,"part_of_competition"],game_type[,1]),2]
+  k_value <- game_type[grep(raw_match_data$part_of_competition[i],game_type[,1]),2]
   goal_diff <- abs(as.numeric(home_stats[2]) - as.numeric(away_stats[2]))
   
   #This value depends on the number of goals scored
@@ -119,19 +119,20 @@ for (i in 1:dim(raw_match_data)[1]){
   #This calculates how many points will be added or subtracted to the team's 
   #rating
   if (home_stats[2] > away_stats[2]){
-    current_elo[home_index,"Elo"] <- round(k_value * g_value * (1 - home_win_exp)) + home_elo
-    current_elo[away_index,"Elo"] <- round(k_value * g_value * (0 - away_win_exp)) + away_elo
+    current_elo$Elo[home_index] <- round(k_value * g_value * (1 - home_win_exp)) + home_elo
+    current_elo$Elo[away_index] <- round(k_value * g_value * (0 - away_win_exp)) + away_elo
     
   }else if (home_stats[2] < away_stats[2]){
-    current_elo[home_index,"Elo"] <- round(k_value * g_value * (0 - home_win_exp)) + home_elo
-    current_elo[away_index,"Elo"] <- round(k_value * g_value * (1 - away_win_exp)) + away_elo
+    current_elo$Elo[home_index] <- round(k_value * g_value * (0 - home_win_exp)) + home_elo
+    current_elo$Elo[away_index] <- round(k_value * g_value * (1 - away_win_exp)) + away_elo
     
   }else if (home_stats[2] == away_stats[2]){
-    current_elo[home_index,"Elo"] <- round(k_value * g_value * (0.5 - home_win_exp)) + home_elo
-    current_elo[away_index,"Elo"] <- round(k_value * g_value * (0.5 - away_win_exp)) + away_elo 
+    current_elo$Elo[home_index] <- round(k_value * g_value * (0.5 - home_win_exp)) + home_elo
+    current_elo$Elo[away_index] <- round(k_value * g_value * (0.5 - away_win_exp)) + away_elo 
   }
   
-  #Storing all of the necessary values
+  #Storing all of the necessary values. Notice how we update the current_elo values and
+  #leave the respective team elos alone
   elo_history[[home_index]][dim(elo_history[[home_index]])[1]+1,] <- c(current_year, 
                                       as.character(current_date, format = "%m/%d/%Y"),
                                       home_elo,away_elo,current_elo[home_index,"Elo"], 
@@ -150,6 +151,6 @@ for (i in 1:dim(raw_match_data)[1]){
 dir.create("./MLS Elo Histories")
 
 for (i in 1:length(elo_history)){
-  write.csv(elo_history[[i]],paste("./MLS Elo Histories/",current_elo[i,1],
-                                   " History", ".csv", sep = ""), )
+  write.csv(elo_history[[i]],paste("./MLS Elo Histories/",current_elo$Team_Name[i],
+                                   " History", ".csv", sep = ""))
 }

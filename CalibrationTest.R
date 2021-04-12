@@ -8,9 +8,7 @@
 library(ggplot2)
 
 bins <- data.frame(centers = c(0,5,10,15,20,25,30,35,40,45,50,55,60,65,70,75,80,85,90,95,100))
-bins[,"Total Events"] <- 0
-bins[,"Occured Events"] <- 0
-bins[,"Combined % Chance"] <- 0
+bins[,c("Total_Events","Occured_Events","Combined_Per")] <- 0
 lowest_chance <- c(100,0,0)
 bounds <- 2.5
 ties <- data.frame()
@@ -42,11 +40,11 @@ for (i in 1:(length(elo_history)-1)){
       b_diff <- abs(b_win_exp - bins[k,1])
       
       if (a_diff <= bounds){
-        bins[k,"Total Events"] <- bins[k,"Total Events"] + 1
-        bins[k,"Combined % Chance"] <- bins[k,"Combined % Chance"] + a_win_exp
+        bins$Total_Events[k] <-  bins$Total_Events[k] + 1
+        bins$Combined_Per[k] <- bins$Combined_Per[k] + a_win_exp
         
         if (a_goals > b_goals){
-          bins[k,"Occured Events"] <- bins[k,"Occured Events"] + 1
+          bins$Occured_Events[k] <- bins$Occured_Events[k] + 1
           if (lowest_chance[1] > a_win_exp){
             lowest_chance[1] <- a_win_exp
             lowest_chance[2:3] <- c(i,j)
@@ -59,11 +57,11 @@ for (i in 1:(length(elo_history)-1)){
       }
       
       if (b_diff <= bounds){
-        bins[k,"Total Events"] <- bins[k,"Total Events"] + 1
-        bins[k,"Combined % Chance"] <- bins[k,"Combined % Chance"] + b_win_exp
+        bins$Total_Events[k] <- bins$Total_Events[k] + 1
+        bins$Combined_Per[k] <- bins$Combined_Per[k] + b_win_exp
         
         if (a_goals < b_goals){
-          bins[k,"Occured Events"] <- bins[k,"Occured Events"] + 1
+          bins$Occured_Events[k] <- bins$Occured_Events[k] + 1
           if (lowest_chance[1] > b_win_exp){
             lowest_chance[1] <- b_win_exp
             lowest_chance[2:3] <- c(i,j)
@@ -75,20 +73,20 @@ for (i in 1:(length(elo_history)-1)){
   }
 }
 
-bins[,"Avg Centers"] <- 0
+bins[,"Avg_Centers"] <- 0
 bins[,"Occurance (%)"] <- 0
 
 
 for (i in 1:dim(bins)[1]){
-  bins[i,"Occurance (%)"] <- (bins[i,"Occured Events"]/bins[i,"Total Events"]) * 100
-  bins[i,"Avg Centers"] <-  (bins[i,"Combined % Chance"]/bins[i,"Total Events"])
+  bins[i,"Occurance (%)"] <- (bins$Occured_Events[i]/bins$Total_Events[i]) * 100
+  bins$Avg_Centers[i] <-  (bins$Combined_Per[i]/bins$Total_Events[i])
 }
 
 write.csv(bins, "./CalibrationPlot.csv")
 
-cal_plot <- ggplot(bins[,5:6], aes(x = bins[,"Avg Centers"],
+cal_plot <- ggplot(bins[,5:6], aes(x = bins$Avg_Centers,
                                    y = bins[,"Occurance (%)"]))+ geom_point(
-                                     aes(size=bins[,"Total Events"])) + geom_abline(
+                                     aes(size=bins$Total_Events)) + geom_abline(
                                        intercept = 0, slope = 1)
 cal_plot
 
