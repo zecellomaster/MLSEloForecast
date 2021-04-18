@@ -277,40 +277,40 @@ lapply(seq(1:num_sim), FUN = function(y){
   
 })
 
-  #Match the simulated games to the schedule
-  #future_reg_games[,c("Home_Score","Away_Score")] <- sim_season
-  avg_stats <- round(avg_stats/num_sim)
-  
+#Match the simulated games to the schedule
+#future_reg_games[,c("Home_Score","Away_Score")] <- sim_season
+avg_stats <- round(avg_stats/num_sim)
+
 #  season_odds[,c("Avg_Points","Avg_Goal_Diff","Make_Playoffs", "First_Round_Bye",
 #                 "Win_Shield", "Make_Semis","Make_Champ", "Make_Cup")] <-
 #  c()
-  
-  season_odds$Conference <- teams$Conference
-  season_odds$Avg_Points <- avg_stats[,"Points"]
-  season_odds$Avg_Goal_Diff <- avg_stats[,"Goal_Diff"]
-  season_odds$Make_Playoffs <- round(make_playoffs/num_sim,3)
-  season_odds$First_Round_Bye <- round(bye/num_sim, 3)
-  season_odds$Win_Shield <- round(win_shield/num_sim,3)
-  season_odds$Make_Semis <- round(make_semis/num_sim,3)
-  season_odds$Make_Champ <- round(make_champ/num_sim,3)
-  season_odds$Make_Cup <- round(make_cup/num_sim,3)
-  season_odds$Win_Cup <- round(win_cup/num_sim,3)
-  
-  refined_results <- subset(reg_results, select = -c(Round,Winner,Score))
-  
-  refined_tally <- round(rbind(comp_reg_tally,future_reg_tally)/num_sim,3)
-  
-  refined_results[,c("Home_Chance", "Away_Chance", "Tie")] <-  refined_tally
-  
-  write.csv(refined_results, save_season_loc)
-  
-  combined_tally <- rbind(comp_reg_tally,future_reg_tally)
-  write.csv(combined_tally, reg_tally_loc)
-  write.csv(season_odds, save_odds_loc)
-  
-  end_time <- proc.time()
-  dur_time <- end_time - start_time
-  print(dur_time)
 
+season_odds$Conference <- teams$Conference
+season_odds$Avg_Points <- avg_stats[,"Points"]
+season_odds$Avg_Goal_Diff <- avg_stats[,"Goal_Diff"]
+season_odds$Make_Playoffs <- round(make_playoffs/num_sim,3)
+season_odds$First_Round_Bye <- round(bye/num_sim, 3)
+season_odds$Win_Shield <- round(win_shield/num_sim,3)
+season_odds$Make_Semis <- round(make_semis/num_sim,3)
+season_odds$Make_Champ <- round(make_champ/num_sim,3)
+season_odds$Make_Cup <- round(make_cup/num_sim,3)
+season_odds$Win_Cup <- round(win_cup/num_sim,3)
+
+refined_results <- subset(reg_results, select = -c(Round,Winner,Score))
+
+refined_tally <- round(rbind(comp_reg_tally,future_reg_tally)/num_sim,3)
+
+refined_results[,c("Home_Chance", "Away_Chance", "Tie")] <-  refined_tally
+
+write.csv(refined_results, save_season_loc)
+
+combined_tally <- rbind(comp_reg_tally,future_reg_tally)
+write.csv(combined_tally, reg_tally_loc)
+write.csv(season_odds, save_odds_loc)
 registerDoSEQ()
+
+end_time <- proc.time()
+dur_time <- end_time - start_time
+print(dur_time)
+
   
