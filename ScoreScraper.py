@@ -6,7 +6,8 @@ Created on Thu Apr  1 14:28:56 2021
 
 Name: ScoreScraper.py 
 Description: Script that retrieves schedules and scores of the MLS season from
-FBref.com. The goal is to output 2 csv files: one with completed games, the other with scheduled matchups
+FBref.com. The goal is to output 2 csv files: one with the regular season games,
+the other (if available, with post season games)
 """
 
 import pandas as pd

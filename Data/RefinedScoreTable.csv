@@ -1,0 +1,460 @@
+"","Date","Home","Away","Final","Home_Score","Away_Score","Home_Chance","Away_Chance","Tie"
+"1","2021-04-16","Houston","San Jose","False",0,0,0.413,0.356,0.231
+"2","2021-04-16","Seattle","Minnesota","False",0,0,0.54,0.217,0.243
+"3","2021-04-17","CF Montréal","Toronto FC","False",0,0,0.312,0.435,0.253
+"4","2021-04-17","Orlando City","Atlanta","False",0,0,0.434,0.365,0.201
+"5","2021-04-17","Los Angeles FC","Austin FC","False",0,0,0.662,0.161,0.177
+"6","2021-04-17","FC Dallas","Colorado","False",0,0,0.513,0.26,0.227
+"7","2021-04-17","NY Red Bulls","Sporting KC","False",0,0,0.42,0.347,0.233
+"8","2021-04-17","D.C. United","NYCFC","False",0,0,0.328,0.425,0.247
+"9","2021-04-17","Chicago","New England","False",0,0,0.403,0.307,0.29
+"10","2021-04-17","Nashville","FC Cincinnati","False",0,0,0.675,0.101,0.224
+"11","2021-04-18","Miami","LA Galaxy","False",0,0,0.382,0.377,0.241
+"12","2021-04-18","Columbus","Philadelphia","False",0,0,0.51,0.255,0.235
+"13","2021-04-18","Vancouver","Portland","False",0,0,0.234,0.534,0.232
+"14","2021-04-23","Sporting KC","Orlando City","False",0,0,0.492,0.263,0.245
+"15","2021-04-24","NYCFC","FC Cincinnati","False",0,0,0.778,0.063,0.159
+"16","2021-04-24","Nashville","CF Montréal","False",0,0,0.5,0.279,0.221
+"17","2021-04-24","Toronto FC","Vancouver","False",0,0,0.645,0.147,0.208
+"18","2021-04-24","San Jose","FC Dallas","False",0,0,0.453,0.293,0.254
+"19","2021-04-24","Los Angeles FC","Seattle","False",0,0,0.515,0.261,0.224
+"20","2021-04-24","Minnesota","Real Salt Lake","False",0,0,0.546,0.258,0.196
+"21","2021-04-24","New England","D.C. United","False",0,0,0.549,0.213,0.238
+"22","2021-04-24","Philadelphia","Miami","False",0,0,0.694,0.107,0.199
+"23","2021-04-24","Atlanta","Chicago","False",0,0,0.463,0.28,0.257
+"24","2021-04-24","Colorado","Austin FC","False",0,0,0.553,0.243,0.204
+"25","2021-04-24","Portland","Houston","False",0,0,0.579,0.215,0.206
+"26","2021-04-25","LA Galaxy","NY Red Bulls","False",0,0,0.357,0.402,0.241
+"27","2021-05-01","NY Red Bulls","Chicago","False",0,0,0.481,0.287,0.232
+"28","2021-05-01","Real Salt Lake","Sporting KC","False",0,0,0.371,0.399,0.23
+"29","2021-05-01","CF Montréal","Columbus","False",0,0,0.331,0.435,0.234
+"30","2021-05-01","Houston","Los Angeles FC","False",0,0,0.277,0.51,0.213
+"31","2021-05-01","New England","Atlanta","False",0,0,0.465,0.334,0.201
+"32","2021-05-01","Orlando City","FC Cincinnati","False",0,0,0.761,0.085,0.154
+"33","2021-05-01","Philadelphia","NYCFC","False",0,0,0.499,0.242,0.259
+"34","2021-05-01","FC Dallas","Portland","False",0,0,0.371,0.397,0.232
+"35","2021-05-01","Minnesota","Austin FC","False",0,0,0.583,0.18,0.237
+"36","2021-05-01","San Jose","D.C. United","False",0,0,0.471,0.279,0.25
+"37","2021-05-02","Nashville","Miami","False",0,0,0.558,0.181,0.261
+"38","2021-05-02","Seattle","LA Galaxy","False",0,0,0.537,0.259,0.204
+"39","2021-05-02","Vancouver","Colorado","False",0,0,0.416,0.383,0.201
+"40","2021-05-07","Real Salt Lake","San Jose","False",0,0,0.477,0.323,0.2
+"41","2021-05-08","Chicago","Philadelphia","False",0,0,0.375,0.399,0.226
+"42","2021-05-08","NY Red Bulls","Toronto FC","False",0,0,0.429,0.319,0.252
+"43","2021-05-08","Nashville","New England","False",0,0,0.445,0.277,0.278
+"44","2021-05-08","Columbus","D.C. United","False",0,0,0.567,0.222,0.211
+"45","2021-05-08","Vancouver","CF Montréal","False",0,0,0.444,0.311,0.245
+"46","2021-05-08","FC Dallas","Houston","False",0,0,0.558,0.265,0.177
+"47","2021-05-08","Orlando City","NYCFC","False",0,0,0.379,0.376,0.245
+"48","2021-05-08","LA Galaxy","Los Angeles FC","False",0,0,0.274,0.487,0.239
+"49","2021-05-08","Colorado","Minnesota","False",0,0,0.424,0.316,0.26
+"50","2021-05-09","Miami","Atlanta","False",0,0,0.287,0.479,0.234
+"51","2021-05-09","Portland","Seattle","False",0,0,0.491,0.272,0.237
+"52","2021-05-09","Sporting KC","Austin FC","False",0,0,0.516,0.246,0.238
+"53","2021-05-12","Miami","CF Montréal","False",0,0,0.425,0.333,0.242
+"54","2021-05-12","Toronto FC","Columbus","False",0,0,0.434,0.304,0.262
+"55","2021-05-12","Philadelphia","New England","False",0,0,0.547,0.187,0.266
+"56","2021-05-12","Houston","Sporting KC","False",0,0,0.384,0.406,0.21
+"57","2021-05-12","Minnesota","Vancouver","False",0,0,0.644,0.139,0.217
+"58","2021-05-12","San Jose","Seattle","False",0,0,0.354,0.401,0.245
+"59","2021-05-13","D.C. United","Chicago","False",0,0,0.368,0.388,0.244
+"60","2021-05-15","NYCFC","Toronto FC","False",0,0,0.501,0.25,0.249
+"61","2021-05-15","LA Galaxy","Austin FC","False",0,0,0.447,0.313,0.24
+"62","2021-05-15","Atlanta","CF Montréal","False",0,0,0.52,0.27,0.21
+"63","2021-05-15","Philadelphia","NY Red Bulls","False",0,0,0.434,0.318,0.248
+"64","2021-05-15","Minnesota","FC Dallas","False",0,0,0.556,0.192,0.252
+"65","2021-05-15","Colorado","Houston","False",0,0,0.543,0.263,0.194
+"66","2021-05-15","Real Salt Lake","Nashville","False",0,0,0.364,0.334,0.302
+"67","2021-05-15","San Jose","Portland","False",0,0,0.308,0.453,0.239
+"68","2021-05-16","Sporting KC","Vancouver","False",0,0,0.592,0.181,0.227
+"69","2021-05-16","FC Cincinnati","Miami","False",0,0,0.328,0.377,0.295
+"70","2021-05-16","New England","Columbus","False",0,0,0.39,0.324,0.286
+"71","2021-05-16","D.C. United","Orlando City","False",0,0,0.395,0.327,0.278
+"72","2021-05-16","Seattle","Los Angeles FC","False",0,0,0.388,0.415,0.197
+"73","2021-05-22","CF Montréal","FC Cincinnati","False",0,0,0.593,0.159,0.248
+"74","2021-05-22","Portland","LA Galaxy","False",0,0,0.528,0.286,0.186
+"75","2021-05-22","Chicago","Miami","False",0,0,0.575,0.175,0.25
+"76","2021-05-22","Orlando City","Toronto FC","False",0,0,0.398,0.334,0.268
+"77","2021-05-22","NYCFC","Columbus","False",0,0,0.467,0.284,0.249
+"78","2021-05-22","FC Dallas","Real Salt Lake","False",0,0,0.561,0.231,0.208
+"79","2021-05-22","New England","NY Red Bulls","False",0,0,0.388,0.382,0.23
+"80","2021-05-22","Houston","Vancouver","False",0,0,0.474,0.293,0.233
+"81","2021-05-22","San Jose","Sporting KC","False",0,0,0.404,0.364,0.232
+"82","2021-05-22","Los Angeles FC","Colorado","False",0,0,0.66,0.161,0.179
+"83","2021-05-23","Seattle","Atlanta","False",0,0,0.506,0.285,0.209
+"84","2021-05-23","D.C. United","Philadelphia","False",0,0,0.324,0.441,0.235
+"85","2021-05-23","Nashville","Austin FC","False",0,0,0.484,0.245,0.271
+"86","2021-05-29","Miami","D.C. United","False",0,0,0.354,0.364,0.282
+"87","2021-05-29","Chicago","CF Montréal","False",0,0,0.494,0.304,0.202
+"88","2021-05-29","NY Red Bulls","Orlando City","False",0,0,0.499,0.239,0.262
+"89","2021-05-29","FC Cincinnati","New England","False",0,0,0.172,0.6,0.228
+"90","2021-05-29","Columbus","Toronto FC","False",0,0,0.479,0.246,0.275
+"91","2021-05-29","Atlanta","Nashville","False",0,0,0.451,0.232,0.317
+"92","2021-05-29","Seattle","Austin FC","False",0,0,0.646,0.151,0.203
+"93","2021-05-29","Los Angeles FC","NYCFC","False",0,0,0.543,0.229,0.228
+"94","2021-05-29","LA Galaxy","San Jose","False",0,0,0.409,0.343,0.248
+"95","2021-05-29","Sporting KC","Houston","False",0,0,0.515,0.285,0.2
+"96","2021-05-29","Colorado","FC Dallas","False",0,0,0.461,0.266,0.273
+"97","2021-05-29","Real Salt Lake","Minnesota","False",0,0,0.336,0.412,0.252
+"98","2021-05-30","Philadelphia","Portland","False",0,0,0.422,0.304,0.274
+"99","2021-06-18","Real Salt Lake","Vancouver","False",0,0,0.53,0.257,0.213
+"100","2021-06-19","Columbus","Chicago","False",0,0,0.582,0.17,0.248
+"101","2021-06-19","Toronto FC","Orlando City","False",0,0,0.61,0.164,0.226
+"102","2021-06-19","FC Cincinnati","Colorado","False",0,0,0.17,0.623,0.207
+"103","2021-06-20","NY Red Bulls","Nashville","False",0,0,0.455,0.226,0.319
+"104","2021-06-19","D.C. United","Miami","False",0,0,0.503,0.225,0.272
+"105","2021-06-19","FC Dallas","Minnesota","False",0,0,0.407,0.339,0.254
+"106","2021-06-19","Austin FC","San Jose","False",0,0,0.47,0.305,0.225
+"107","2021-06-19","Portland","Sporting KC","False",0,0,0.532,0.26,0.208
+"108","2021-06-19","LA Galaxy","Seattle","False",0,0,0.327,0.43,0.243
+"109","2021-06-19","Los Angeles FC","Houston","False",0,0,0.676,0.165,0.159
+"110","2021-06-20","Atlanta","Philadelphia","False",0,0,0.419,0.348,0.233
+"111","2021-06-20","NYCFC","New England","False",0,0,0.574,0.155,0.271
+"112","2021-06-22","Orlando City","San Jose","False",0,0,0.535,0.231,0.234
+"113","2021-06-23","New England","NY Red Bulls","False",0,0,0.365,0.417,0.218
+"114","2021-06-23","Philadelphia","Columbus","False",0,0,0.458,0.282,0.26
+"115","2021-06-24","NYCFC","Atlanta","False",0,0,0.509,0.295,0.196
+"116","2021-06-23","Minnesota","Austin FC","False",0,0,0.573,0.186,0.241
+"117","2021-06-23","Chicago","FC Cincinnati","False",0,0,0.698,0.121,0.181
+"118","2021-06-23","CF Montréal","D.C. United","False",0,0,0.398,0.342,0.26
+"119","2021-06-23","Houston","Portland","False",0,0,0.353,0.414,0.233
+"120","2021-06-23","Sporting KC","Colorado","False",0,0,0.503,0.303,0.194
+"121","2021-06-23","Nashville","Toronto FC","False",0,0,0.376,0.319,0.305
+"122","2021-06-23","Seattle","Real Salt Lake","False",0,0,0.643,0.179,0.178
+"123","2021-06-23","Vancouver","LA Galaxy","False",0,0,0.399,0.375,0.226
+"124","2021-06-23","Los Angeles FC","FC Dallas","False",0,0,0.629,0.148,0.223
+"125","2021-06-25","Miami","Orlando City","False",0,0,0.371,0.368,0.261
+"126","2021-06-26","Sporting KC","Los Angeles FC","False",0,0,0.318,0.466,0.216
+"127","2021-06-26","Toronto FC","FC Cincinnati","False",0,0,0.757,0.095,0.148
+"128","2021-06-26","Real Salt Lake","Houston","False",0,0,0.443,0.322,0.235
+"129","2021-06-26","Chicago","Philadelphia","False",0,0,0.369,0.397,0.234
+"130","2021-06-26","Nashville","CF Montréal","False",0,0,0.487,0.293,0.22
+"131","2021-06-26","Seattle","Vancouver","False",0,0,0.695,0.122,0.183
+"132","2021-06-26","San Jose","LA Galaxy","False",0,0,0.45,0.312,0.238
+"133","2021-06-26","Portland","Minnesota","False",0,0,0.55,0.236,0.214
+"134","2021-06-27","Atlanta","NY Red Bulls","False",0,0,0.4,0.358,0.242
+"135","2021-06-27","NYCFC","D.C. United","False",0,0,0.607,0.207,0.186
+"136","2021-06-27","Austin FC","Columbus","False",0,0,0.324,0.425,0.251
+"137","2021-06-27","FC Dallas","New England","False",0,0,0.424,0.279,0.297
+"138","2021-07-03","Columbus","New England","False",0,0,0.565,0.171,0.264
+"139","2021-07-03","D.C. United","Toronto FC","False",0,0,0.369,0.401,0.23
+"140","2021-07-03","CF Montréal","Miami","False",0,0,0.468,0.241,0.291
+"141","2021-07-03","Orlando City","NY Red Bulls","False",0,0,0.388,0.379,0.233
+"142","2021-07-03","Chicago","Atlanta","False",0,0,0.403,0.369,0.228
+"143","2021-07-03","Minnesota","San Jose","False",0,0,0.58,0.222,0.198
+"144","2021-07-03","Houston","FC Cincinnati","False",0,0,0.651,0.143,0.206
+"145","2021-07-03","Real Salt Lake","Los Angeles FC","False",0,0,0.236,0.564,0.2
+"146","2021-07-03","Austin FC","Portland","False",0,0,0.298,0.427,0.275
+"147","2021-07-04","FC Dallas","Vancouver","False",0,0,0.646,0.187,0.167
+"148","2021-07-04","Colorado","Seattle","False",0,0,0.37,0.389,0.241
+"149","2021-07-04","LA Galaxy","Sporting KC","False",0,0,0.395,0.383,0.222
+"150","2021-07-05","Nashville","Philadelphia","False",0,0,0.36,0.411,0.229
+"151","2021-07-07","New England","Toronto FC","False",0,0,0.467,0.294,0.239
+"152","2021-07-07","CF Montréal","NYCFC","False",0,0,0.289,0.474,0.237
+"153","2021-07-07","FC Cincinnati","Columbus","False",0,0,0.127,0.654,0.219
+"154","2021-07-08","NY Red Bulls","Philadelphia","False",0,0,0.439,0.316,0.245
+"155","2021-07-07","Chicago","Orlando City","False",0,0,0.465,0.299,0.236
+"156","2021-07-07","Seattle","Houston","False",0,0,0.595,0.194,0.211
+"157","2021-07-07","Colorado","Minnesota","False",0,0,0.418,0.336,0.246
+"158","2021-07-07","Austin FC","Los Angeles FC","False",0,0,0.255,0.553,0.192
+"159","2021-07-07","Vancouver","Real Salt Lake","False",0,0,0.432,0.369,0.199
+"160","2021-07-07","LA Galaxy","FC Dallas","False",0,0,0.386,0.358,0.256
+"161","2021-07-08","Nashville","Atlanta","False",0,0,0.364,0.411,0.225
+"162","2021-07-17","Atlanta","New England","False",0,0,0.5,0.253,0.247
+"163","2021-07-17","NY Red Bulls","Miami","False",0,0,0.552,0.17,0.278
+"164","2021-07-17","Philadelphia","D.C. United","False",0,0,0.611,0.186,0.203
+"165","2021-07-17","Columbus","NYCFC","False",0,0,0.527,0.233,0.24
+"166","2021-07-17","CF Montréal","FC Cincinnati","False",0,0,0.58,0.168,0.252
+"167","2021-07-17","Toronto FC","Orlando City","False",0,0,0.585,0.183,0.232
+"168","2021-07-17","Sporting KC","Austin FC","False",0,0,0.532,0.235,0.233
+"169","2021-07-17","Nashville","Chicago","False",0,0,0.457,0.274,0.269
+"170","2021-07-17","Colorado","San Jose","False",0,0,0.554,0.251,0.195
+"171","2021-07-17","Vancouver","LA Galaxy","False",0,0,0.368,0.384,0.248
+"172","2021-07-17","Los Angeles FC","Real Salt Lake","False",0,0,0.677,0.137,0.186
+"173","2021-07-17","Portland","FC Dallas","False",0,0,0.57,0.167,0.263
+"174","2021-07-18","Minnesota","Seattle","False",0,0,0.44,0.299,0.261
+"175","2021-07-21","Miami","New England","False",0,0,0.273,0.414,0.313
+"176","2021-07-21","FC Cincinnati","Atlanta","False",0,0,0.151,0.619,0.23
+"177","2021-07-21","Columbus","Nashville","False",0,0,0.657,0.103,0.24
+"178","2021-07-21","Toronto FC","NY Red Bulls","False",0,0,0.378,0.38,0.242
+"179","2021-07-22","NYCFC","CF Montréal","False",0,0,0.595,0.225,0.18
+"180","2021-07-21","Chicago","D.C. United","False",0,0,0.453,0.291,0.256
+"181","2021-07-21","Sporting KC","San Jose","False",0,0,0.513,0.262,0.225
+"182","2021-07-21","Colorado","FC Dallas","False",0,0,0.462,0.298,0.24
+"183","2021-07-21","Vancouver","Houston","False",0,0,0.408,0.362,0.23
+"184","2021-07-21","Real Salt Lake","LA Galaxy","False",0,0,0.415,0.366,0.219
+"185","2021-07-21","Portland","Los Angeles FC","False",0,0,0.383,0.422,0.195
+"186","2021-07-22","Orlando City","Philadelphia","False",0,0,0.377,0.378,0.245
+"187","2021-07-22","Austin FC","Seattle","False",0,0,0.289,0.468,0.243
+"188","2021-07-24","Atlanta","Columbus","False",0,0,0.405,0.333,0.262
+"189","2021-07-25","Miami","Philadelphia","False",0,0,0.216,0.545,0.239
+"190","2021-07-24","Chicago","Toronto FC","False",0,0,0.379,0.376,0.245
+"191","2021-07-24","Minnesota","Portland","False",0,0,0.396,0.329,0.275
+"192","2021-07-24","FC Dallas","LA Galaxy","False",0,0,0.497,0.297,0.206
+"193","2021-07-24","Nashville","FC Cincinnati","False",0,0,0.695,0.12,0.185
+"194","2021-07-24","San Jose","Houston","False",0,0,0.493,0.293,0.214
+"195","2021-07-24","Real Salt Lake","Colorado","False",0,0,0.424,0.361,0.215
+"196","2021-07-24","Los Angeles FC","Vancouver","False",0,0,0.748,0.098,0.154
+"197","2021-07-25","NYCFC","Orlando City","False",0,0,0.595,0.16,0.245
+"198","2021-07-25","New England","CF Montréal","False",0,0,0.505,0.288,0.207
+"199","2021-07-25","D.C. United","NY Red Bulls","False",0,0,0.318,0.429,0.253
+"200","2021-07-25","Seattle","Sporting KC","False",0,0,0.583,0.24,0.177
+"201","2021-07-28","Vancouver","Austin FC","False",0,0,0.431,0.336,0.233
+"202","2021-07-28","Los Angeles FC","Minnesota","False",0,0,0.6,0.188,0.212
+"203","2021-07-30","NYCFC","Columbus","False",0,0,0.475,0.261,0.264
+"204","2021-07-31","Miami","CF Montréal","False",0,0,0.396,0.349,0.255
+"205","2021-07-30","Orlando City","Atlanta","False",0,0,0.411,0.387,0.202
+"206","2021-07-30","LA Galaxy","Portland","False",0,0,0.364,0.387,0.249
+"207","2021-07-31","NY Red Bulls","New England","False",0,0,0.501,0.229,0.27
+"208","2021-07-31","FC Cincinnati","D.C. United","False",0,0,0.223,0.516,0.261
+"209","2021-08-01","Seattle","San Jose","False",0,0,0.642,0.171,0.187
+"210","2021-07-31","Sporting KC","FC Dallas","False",0,0,0.477,0.254,0.269
+"211","2021-07-31","Houston","Real Salt Lake","False",0,0,0.456,0.34,0.204
+"212","2021-07-31","Austin FC","Colorado","False",0,0,0.409,0.358,0.233
+"213","2021-07-31","Vancouver","Minnesota","False",0,0,0.284,0.463,0.253
+"214","2021-08-01","Philadelphia","Chicago","False",0,0,0.596,0.19,0.214
+"215","2021-08-01","Toronto FC","Nashville","False",0,0,0.576,0.152,0.272
+"216","2021-08-04","NY Red Bulls","FC Cincinnati","False",0,0,0.667,0.135,0.198
+"217","2021-08-04","New England","Nashville","False",0,0,0.528,0.178,0.294
+"218","2021-08-04","Orlando City","Miami","False",0,0,0.633,0.146,0.221
+"219","2021-08-04","Columbus","D.C. United","False",0,0,0.573,0.187,0.24
+"220","2021-08-04","Philadelphia","Toronto FC","False",0,0,0.525,0.248,0.227
+"221","2021-08-04","CF Montréal","Atlanta","False",0,0,0.336,0.435,0.229
+"222","2021-08-04","Chicago","NYCFC","False",0,0,0.334,0.435,0.231
+"223","2021-08-04","Minnesota","Colorado","False",0,0,0.532,0.229,0.239
+"224","2021-08-04","Austin FC","Houston","False",0,0,0.439,0.334,0.227
+"225","2021-08-04","Seattle","FC Dallas","False",0,0,0.621,0.143,0.236
+"226","2021-08-04","Los Angeles FC","Sporting KC","False",0,0,0.594,0.217,0.189
+"227","2021-08-04","Portland","San Jose","False",0,0,0.621,0.18,0.199
+"228","2021-08-04","LA Galaxy","Real Salt Lake","False",0,0,0.427,0.355,0.218
+"229","2021-08-07","FC Cincinnati","Orlando City","False",0,0,0.167,0.62,0.213
+"230","2021-08-07","Columbus","Atlanta","False",0,0,0.49,0.301,0.209
+"231","2021-08-08","Miami","Nashville","False",0,0,0.293,0.392,0.315
+"232","2021-08-07","Minnesota","Houston","False",0,0,0.576,0.219,0.205
+"233","2021-08-07","Toronto FC","NYCFC","False",0,0,0.466,0.281,0.253
+"234","2021-08-07","FC Dallas","Austin FC","False",0,0,0.541,0.23,0.229
+"235","2021-08-07","Colorado","Sporting KC","False",0,0,0.444,0.33,0.226
+"236","2021-08-07","Portland","Real Salt Lake","False",0,0,0.57,0.227,0.203
+"237","2021-08-08","Chicago","NY Red Bulls","False",0,0,0.344,0.402,0.254
+"238","2021-08-08","New England","Philadelphia","False",0,0,0.394,0.357,0.249
+"239","2021-08-08","San Jose","Los Angeles FC","False",0,0,0.28,0.499,0.221
+"240","2021-08-08","LA Galaxy","Vancouver","False",0,0,0.491,0.287,0.222
+"241","2021-08-08","D.C. United","CF Montréal","False",0,0,0.454,0.325,0.221
+"242","2021-08-13","San Jose","Vancouver","False",0,0,0.56,0.224,0.216
+"243","2021-08-14","NYCFC","Miami","False",0,0,0.707,0.099,0.194
+"244","2021-08-14","Minnesota","LA Galaxy","False",0,0,0.47,0.295,0.235
+"245","2021-08-14","Chicago","Columbus","False",0,0,0.319,0.428,0.253
+"246","2021-08-14","FC Cincinnati","Philadelphia","False",0,0,0.108,0.712,0.18
+"247","2021-08-14","CF Montréal","NY Red Bulls","False",0,0,0.296,0.467,0.237
+"248","2021-08-14","Toronto FC","New England","False",0,0,0.538,0.199,0.263
+"249","2021-08-14","FC Dallas","Sporting KC","False",0,0,0.442,0.327,0.231
+"250","2021-08-14","Houston","Colorado","False",0,0,0.427,0.36,0.213
+"251","2021-08-14","Real Salt Lake","Austin FC","False",0,0,0.441,0.335,0.224
+"252","2021-08-15","Atlanta","Los Angeles FC","False",0,0,0.355,0.435,0.21
+"253","2021-08-15","Nashville","D.C. United","False",0,0,0.444,0.279,0.277
+"254","2021-08-15","Portland","Seattle","False",0,0,0.474,0.269,0.257
+"255","2021-08-18","Miami","Chicago","False",0,0,0.35,0.389,0.261
+"256","2021-08-18","NY Red Bulls","Columbus","False",0,0,0.457,0.271,0.272
+"257","2021-08-17","LA Galaxy","Colorado","False",0,0,0.439,0.345,0.216
+"258","2021-08-17","San Jose","Minnesota","False",0,0,0.386,0.363,0.251
+"259","2021-08-18","New England","D.C. United","False",0,0,0.513,0.245,0.242
+"260","2021-08-18","Atlanta","Toronto FC","False",0,0,0.453,0.303,0.244
+"261","2021-08-18","FC Cincinnati","CF Montréal","False",0,0,0.233,0.512,0.255
+"262","2021-08-18","Philadelphia","NYCFC","False",0,0,0.472,0.282,0.246
+"263","2021-08-18","Nashville","Orlando City","False",0,0,0.456,0.284,0.26
+"264","2021-08-18","FC Dallas","Seattle","False",0,0,0.333,0.395,0.272
+"265","2021-08-18","Sporting KC","Portland","False",0,0,0.379,0.379,0.242
+"266","2021-08-18","Austin FC","Vancouver","False",0,0,0.539,0.231,0.23
+"267","2021-08-18","Real Salt Lake","Houston","False",0,0,0.455,0.333,0.212
+"268","2021-08-21","Miami","Toronto FC","False",0,0,0.218,0.525,0.257
+"269","2021-08-20","LA Galaxy","San Jose","False",0,0,0.439,0.319,0.242
+"270","2021-08-21","Minnesota","Sporting KC","False",0,0,0.492,0.27,0.238
+"271","2021-08-21","Columbus","Seattle","False",0,0,0.47,0.276,0.254
+"272","2021-08-21","Orlando City","Chicago","False",0,0,0.509,0.259,0.232
+"273","2021-08-21","Philadelphia","CF Montréal","False",0,0,0.554,0.255,0.191
+"274","2021-08-21","New England","FC Cincinnati","False",0,0,0.753,0.094,0.153
+"275","2021-08-21","D.C. United","Atlanta","False",0,0,0.327,0.44,0.233
+"276","2021-08-21","NY Red Bulls","NYCFC","False",0,0,0.471,0.267,0.262
+"277","2021-08-21","Houston","FC Dallas","False",0,0,0.408,0.331,0.261
+"278","2021-08-21","Colorado","Real Salt Lake","False",0,0,0.538,0.24,0.222
+"279","2021-08-21","Austin FC","Portland","False",0,0,0.316,0.441,0.243
+"280","2021-08-21","Vancouver","Los Angeles FC","False",0,0,0.196,0.632,0.172
+"281","2021-08-27","Columbus","FC Cincinnati","False",0,0,0.741,0.097,0.162
+"282","2021-08-27","CF Montréal","Toronto FC","False",0,0,0.339,0.406,0.255
+"283","2021-08-27","Orlando City","Miami","False",0,0,0.616,0.154,0.23
+"284","2021-08-28","Atlanta","Nashville","False",0,0,0.489,0.196,0.315
+"285","2021-08-28","NY Red Bulls","Chicago","False",0,0,0.516,0.24,0.244
+"286","2021-08-28","NYCFC","New England","False",0,0,0.585,0.181,0.234
+"287","2021-08-28","Los Angeles FC","LA Galaxy","False",0,0,0.583,0.244,0.173
+"288","2021-08-28","D.C. United","Philadelphia","False",0,0,0.336,0.433,0.231
+"289","2021-08-28","Sporting KC","Colorado","False",0,0,0.498,0.305,0.197
+"290","2021-08-28","Houston","Minnesota","False",0,0,0.354,0.402,0.244
+"291","2021-08-28","Vancouver","Real Salt Lake","False",0,0,0.429,0.369,0.202
+"292","2021-08-29","Austin FC","FC Dallas","False",0,0,0.384,0.354,0.262
+"293","2021-08-29","Seattle","Portland","False",0,0,0.452,0.315,0.233
+"294","2021-09-03","Houston","Portland","False",0,0,0.32,0.444,0.236
+"295","2021-09-03","Los Angeles FC","Sporting KC","False",0,0,0.609,0.185,0.206
+"296","2021-09-04","FC Cincinnati","Miami","False",0,0,0.263,0.486,0.251
+"297","2021-09-04","Orlando City","Columbus","False",0,0,0.344,0.363,0.293
+"298","2021-09-04","Real Salt Lake","FC Dallas","False",0,0,0.38,0.341,0.279
+"299","2021-09-04","Nashville","NYCFC","False",0,0,0.316,0.406,0.278
+"300","2021-09-04","San Jose","Colorado","False",0,0,0.461,0.311,0.228
+"301","2021-09-10","Atlanta","Orlando City","False",0,0,0.539,0.209,0.252
+"302","2021-09-11","Miami","Columbus","False",0,0,0.22,0.515,0.265
+"303","2021-09-10","Vancouver","Portland","False",0,0,0.249,0.533,0.218
+"304","2021-09-11","Colorado","LA Galaxy","False",0,0,0.487,0.305,0.208
+"305","2021-09-11","Seattle","Minnesota","False",0,0,0.532,0.235,0.233
+"306","2021-09-11","NY Red Bulls","D.C. United","False",0,0,0.447,0.269,0.284
+"307","2021-09-11","New England","NYCFC","False",0,0,0.376,0.345,0.279
+"308","2021-09-11","FC Cincinnati","Toronto FC","False",0,0,0.117,0.686,0.197
+"309","2021-09-11","FC Dallas","San Jose","False",0,0,0.529,0.247,0.224
+"310","2021-09-11","Houston","Austin FC","False",0,0,0.488,0.294,0.218
+"311","2021-09-11","Sporting KC","Chicago","False",0,0,0.548,0.247,0.205
+"312","2021-09-12","CF Montréal","Nashville","False",0,0,0.358,0.334,0.308
+"313","2021-09-12","Los Angeles FC","Real Salt Lake","False",0,0,0.674,0.155,0.171
+"314","2021-09-14","NYCFC","FC Dallas","False",0,0,0.597,0.172,0.231
+"315","2021-09-14","Toronto FC","Miami","False",0,0,0.678,0.111,0.211
+"316","2021-09-14","Columbus","NY Red Bulls","False",0,0,0.377,0.365,0.258
+"317","2021-09-15","Atlanta","FC Cincinnati","False",0,0,0.727,0.101,0.172
+"318","2021-09-15","Orlando City","CF Montréal","False",0,0,0.535,0.249,0.216
+"319","2021-09-15","Philadelphia","New England","False",0,0,0.573,0.177,0.25
+"320","2021-09-15","D.C. United","Chicago","False",0,0,0.417,0.33,0.253
+"321","2021-09-15","Sporting KC","Minnesota","False",0,0,0.427,0.321,0.252
+"322","2021-09-15","Austin FC","Los Angeles FC","False",0,0,0.231,0.536,0.233
+"323","2021-09-15","Seattle","Vancouver","False",0,0,0.714,0.11,0.176
+"324","2021-09-15","Portland","Colorado","False",0,0,0.571,0.225,0.204
+"325","2021-09-15","LA Galaxy","Houston","False",0,0,0.438,0.356,0.206
+"326","2021-09-15","San Jose","Real Salt Lake","False",0,0,0.479,0.314,0.207
+"327","2021-09-17","Miami","NY Red Bulls","False",0,0,0.264,0.462,0.274
+"328","2021-09-18","Atlanta","D.C. United","False",0,0,0.524,0.228,0.248
+"329","2021-09-18","New England","Columbus","False",0,0,0.378,0.332,0.29
+"330","2021-09-18","FC Cincinnati","NYCFC","False",0,0,0.1,0.728,0.172
+"331","2021-09-18","Toronto FC","Nashville","False",0,0,0.616,0.127,0.257
+"332","2021-09-18","Minnesota","LA Galaxy","False",0,0,0.488,0.284,0.228
+"333","2021-09-18","Houston","FC Dallas","False",0,0,0.395,0.355,0.25
+"334","2021-09-18","Austin FC","San Jose","False",0,0,0.437,0.34,0.223
+"335","2021-09-18","Real Salt Lake","Seattle","False",0,0,0.304,0.45,0.246
+"336","2021-09-19","CF Montréal","Chicago","False",0,0,0.395,0.339,0.266
+"337","2021-09-19","Philadelphia","Orlando City","False",0,0,0.596,0.175,0.229
+"338","2021-09-19","Portland","Los Angeles FC","False",0,0,0.394,0.37,0.236
+"339","2021-09-19","Colorado","Vancouver","False",0,0,0.649,0.144,0.207
+"340","2021-09-22","Miami","Nashville","False",0,0,0.286,0.389,0.325
+"341","2021-09-25","Philadelphia","Atlanta","False",0,0,0.497,0.294,0.209
+"342","2021-09-25","New England","Orlando City","False",0,0,0.549,0.215,0.236
+"343","2021-09-25","Columbus","CF Montréal","False",0,0,0.576,0.239,0.185
+"344","2021-09-25","D.C. United","FC Cincinnati","False",0,0,0.686,0.113,0.201
+"345","2021-09-25","NYCFC","NY Red Bulls","False",0,0,0.427,0.338,0.235
+"346","2021-09-26","Austin FC","LA Galaxy","False",0,0,0.405,0.359,0.236
+"347","2021-09-25","Colorado","Toronto FC","False",0,0,0.393,0.377,0.23
+"348","2021-09-25","Minnesota","Houston","False",0,0,0.545,0.244,0.211
+"349","2021-09-25","San Jose","Los Angeles FC","False",0,0,0.253,0.521,0.226
+"350","2021-09-25","Vancouver","FC Dallas","False",0,0,0.358,0.405,0.237
+"351","2021-09-25","Portland","Real Salt Lake","False",0,0,0.578,0.206,0.216
+"352","2021-09-26","Chicago","Nashville","False",0,0,0.441,0.271,0.288
+"353","2021-09-26","Sporting KC","Seattle","False",0,0,0.378,0.368,0.254
+"354","2021-09-29","NY Red Bulls","Philadelphia","False",0,0,0.468,0.284,0.248
+"355","2021-09-29","Toronto FC","FC Cincinnati","False",0,0,0.799,0.061,0.14
+"356","2021-09-29","CF Montréal","New England","False",0,0,0.39,0.342,0.268
+"357","2021-09-29","Atlanta","Miami","False",0,0,0.623,0.152,0.225
+"358","2021-09-29","Chicago","NYCFC","False",0,0,0.339,0.417,0.244
+"359","2021-09-29","FC Dallas","Sporting KC","False",0,0,0.424,0.353,0.223
+"360","2021-09-29","D.C. United","Minnesota","False",0,0,0.37,0.356,0.274
+"361","2021-09-29","Nashville","Orlando City","False",0,0,0.481,0.259,0.26
+"362","2021-09-29","Colorado","Austin FC","False",0,0,0.565,0.211,0.224
+"363","2021-09-29","Houston","Vancouver","False",0,0,0.508,0.248,0.244
+"364","2021-09-29","Real Salt Lake","LA Galaxy","False",0,0,0.406,0.373,0.221
+"365","2021-09-29","Los Angeles FC","Portland","False",0,0,0.508,0.242,0.25
+"366","2021-09-29","San Jose","Seattle","False",0,0,0.332,0.44,0.228
+"367","2021-10-02","Austin FC","Real Salt Lake","False",0,0,0.437,0.326,0.237
+"368","2021-10-02","CF Montréal","Atlanta","False",0,0,0.333,0.457,0.21
+"369","2021-10-02","FC Cincinnati","NY Red Bulls","False",0,0,0.163,0.616,0.221
+"370","2021-10-02","Philadelphia","Columbus","False",0,0,0.48,0.281,0.239
+"371","2021-10-02","Orlando City","D.C. United","False",0,0,0.485,0.279,0.236
+"372","2021-10-03","Sporting KC","Houston","False",0,0,0.51,0.289,0.201
+"373","2021-10-03","Portland","Miami","False",0,0,0.67,0.117,0.213
+"374","2021-10-02","FC Dallas","Minnesota","False",0,0,0.432,0.31,0.258
+"375","2021-10-02","Vancouver","San Jose","False",0,0,0.392,0.365,0.243
+"376","2021-10-03","Toronto FC","Chicago","False",0,0,0.635,0.171,0.194
+"377","2021-10-03","NYCFC","Nashville","False",0,0,0.634,0.108,0.258
+"378","2021-10-03","LA Galaxy","Los Angeles FC","False",0,0,0.298,0.505,0.197
+"379","2021-10-03","Seattle","Colorado","False",0,0,0.618,0.175,0.207
+"380","2021-10-16","CF Montréal","Philadelphia","False",0,0,0.354,0.442,0.204
+"381","2021-10-16","Los Angeles FC","San Jose","False",0,0,0.748,0.106,0.146
+"382","2021-10-16","Columbus","Miami","False",0,0,0.66,0.121,0.219
+"383","2021-10-16","New England","Chicago","False",0,0,0.505,0.255,0.24
+"384","2021-10-16","FC Cincinnati","Orlando City","False",0,0,0.12,0.703,0.177
+"385","2021-10-16","Toronto FC","Atlanta","False",0,0,0.477,0.292,0.231
+"386","2021-10-16","D.C. United","Nashville","False",0,0,0.381,0.288,0.331
+"387","2021-10-16","Houston","Seattle","False",0,0,0.327,0.459,0.214
+"388","2021-10-16","Austin FC","Minnesota","False",0,0,0.353,0.421,0.226
+"389","2021-10-16","Real Salt Lake","Colorado","False",0,0,0.416,0.365,0.219
+"390","2021-10-16","LA Galaxy","Portland","False",0,0,0.363,0.399,0.238
+"391","2021-10-17","NY Red Bulls","NYCFC","False",0,0,0.442,0.291,0.267
+"392","2021-10-17","Vancouver","Sporting KC","False",0,0,0.336,0.433,0.231
+"393","2021-10-20","Miami","Toronto FC","False",0,0,0.223,0.536,0.241
+"394","2021-10-20","Orlando City","CF Montréal","False",0,0,0.529,0.251,0.22
+"395","2021-10-20","Atlanta","NYCFC","False",0,0,0.427,0.34,0.233
+"396","2021-10-20","FC Cincinnati","Chicago","False",0,0,0.159,0.643,0.198
+"397","2021-10-20","Minnesota","Philadelphia","False",0,0,0.458,0.317,0.225
+"398","2021-10-20","FC Dallas","Los Angeles FC","False",0,0,0.27,0.492,0.238
+"399","2021-10-20","D.C. United","New England","False",0,0,0.399,0.34,0.261
+"400","2021-10-20","Houston","LA Galaxy","False",0,0,0.389,0.389,0.222
+"401","2021-10-20","Nashville","Columbus","False",0,0,0.313,0.357,0.33
+"402","2021-10-20","Colorado","Seattle","False",0,0,0.36,0.394,0.246
+"403","2021-10-20","Portland","Vancouver","False",0,0,0.691,0.133,0.176
+"404","2021-10-20","San Jose","Austin FC","False",0,0,0.513,0.243,0.244
+"405","2021-10-23","Miami","FC Cincinnati","False",0,0,0.659,0.125,0.216
+"406","2021-10-23","Toronto FC","CF Montréal","False",0,0,0.572,0.24,0.188
+"407","2021-10-23","LA Galaxy","FC Dallas","False",0,0,0.411,0.327,0.262
+"408","2021-10-23","Columbus","NY Red Bulls","False",0,0,0.376,0.366,0.258
+"409","2021-10-23","Philadelphia","Nashville","False",0,0,0.636,0.111,0.253
+"410","2021-10-23","NYCFC","D.C. United","False",0,0,0.6,0.172,0.228
+"411","2021-10-24","Orlando City","New England","False",0,0,0.435,0.278,0.287
+"412","2021-10-23","Chicago","Real Salt Lake","False",0,0,0.494,0.289,0.217
+"413","2021-10-23","Minnesota","Los Angeles FC","False",0,0,0.291,0.497,0.212
+"414","2021-10-23","Seattle","Sporting KC","False",0,0,0.528,0.252,0.22
+"415","2021-10-23","Colorado","Portland","False",0,0,0.322,0.419,0.259
+"416","2021-10-23","San Jose","Vancouver","False",0,0,0.597,0.195,0.208
+"417","2021-10-24","Austin FC","Houston","False",0,0,0.424,0.363,0.213
+"418","2021-10-26","Los Angeles FC","Seattle","False",0,0,0.588,0.178,0.234
+"419","2021-10-27","New England","Colorado","False",0,0,0.508,0.267,0.225
+"420","2021-10-27","FC Cincinnati","Nashville","False",0,0,0.152,0.615,0.233
+"421","2021-10-27","Columbus","Orlando City","False",0,0,0.559,0.182,0.259
+"422","2021-10-27","Toronto FC","Philadelphia","False",0,0,0.49,0.296,0.214
+"423","2021-10-27","Atlanta","Miami","False",0,0,0.646,0.144,0.21
+"424","2021-10-28","NYCFC","Chicago","False",0,0,0.614,0.173,0.213
+"425","2021-10-27","FC Dallas","Real Salt Lake","False",0,0,0.549,0.247,0.204
+"426","2021-10-27","D.C. United","NY Red Bulls","False",0,0,0.352,0.406,0.242
+"427","2021-10-27","Sporting KC","LA Galaxy","False",0,0,0.458,0.351,0.191
+"428","2021-10-27","Vancouver","Minnesota","False",0,0,0.289,0.469,0.242
+"429","2021-10-27","Portland","San Jose","False",0,0,0.654,0.153,0.193
+"430","2021-10-30","NY Red Bulls","CF Montréal","False",0,0,0.499,0.287,0.214
+"431","2021-10-30","Miami","NYCFC","False",0,0,0.169,0.573,0.258
+"432","2021-10-30","Atlanta","Toronto FC","False",0,0,0.457,0.294,0.249
+"433","2021-10-30","D.C. United","Columbus","False",0,0,0.363,0.367,0.27
+"434","2021-10-30","Philadelphia","FC Cincinnati","False",0,0,0.841,0.049,0.11
+"435","2021-10-31","Minnesota","Sporting KC","False",0,0,0.475,0.321,0.204
+"436","2021-10-30","FC Dallas","Austin FC","False",0,0,0.574,0.214,0.212
+"437","2021-10-30","Real Salt Lake","San Jose","False",0,0,0.444,0.32,0.236
+"438","2021-10-31","Chicago","New England","False",0,0,0.431,0.277,0.292
+"439","2021-10-31","Houston","Colorado","False",0,0,0.424,0.373,0.203
+"440","2021-10-31","Orlando City","Nashville","False",0,0,0.509,0.199,0.292
+"441","2021-11-01","Seattle","LA Galaxy","False",0,0,0.511,0.291,0.198
+"442","2021-11-01","Los Angeles FC","Vancouver","False",0,0,0.783,0.076,0.141
+"443","2021-11-03","NY Red Bulls","Atlanta","False",0,0,0.463,0.321,0.216
+"444","2021-11-03","CF Montréal","Houston","False",0,0,0.407,0.37,0.223
+"445","2021-11-03","Austin FC","Sporting KC","False",0,0,0.329,0.447,0.224
+"446","2021-11-03","Real Salt Lake","Portland","False",0,0,0.298,0.462,0.24
+"447","2021-11-07","Nashville","NY Red Bulls","False",0,0,0.312,0.417,0.271
+"448","2021-11-07","Toronto FC","D.C. United","False",0,0,0.571,0.207,0.222
+"449","2021-11-07","New England","Miami","False",0,0,0.612,0.13,0.258
+"450","2021-11-07","CF Montréal","Orlando City","False",0,0,0.406,0.353,0.241
+"451","2021-11-07","NYCFC","Philadelphia","False",0,0,0.497,0.268,0.235
+"452","2021-11-07","FC Cincinnati","Atlanta","False",0,0,0.133,0.65,0.217
+"453","2021-11-07","Columbus","Chicago","False",0,0,0.572,0.195,0.233
+"454","2021-11-07","LA Galaxy","Minnesota","False",0,0,0.408,0.317,0.275
+"455","2021-11-07","Portland","Austin FC","False",0,0,0.652,0.159,0.189
+"456","2021-11-07","Vancouver","Seattle","False",0,0,0.242,0.532,0.226
+"457","2021-11-07","Colorado","Los Angeles FC","False",0,0,0.24,0.523,0.237
+"458","2021-11-07","Sporting KC","Real Salt Lake","False",0,0,0.531,0.256,0.213
+"459","2021-11-08","San Jose","FC Dallas","False",0,0,0.451,0.322,0.227

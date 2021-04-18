@@ -23,12 +23,12 @@ starting_elo <- 1500
 teams <-  read.csv(name_location,header = TRUE, fileEncoding="UTF-8-BOM")
 reg_results <- read.csv(reg_loc,header = TRUE, fileEncoding="UTF-8-BOM")
 post_results <- read.csv(post_loc,header = TRUE, fileEncoding="UTF-8-BOM")
-current_elo <- read.csv(elo_loc,header = TRUE)
-
+current_elo <- read.csv(elo_loc,header = TRUE,  row.names = 1)
+current_elo <- filter(current_elo, Alt_Names !="N/A")
 
 #Setting up the list that gets the histories of every team
-ref_names <- teams[-c(10,12,13),c("Alt_Names","Team_Name")]
-current_elo <- current_elo[-c(10,12,13),]
+ref_names <- filter(teams[,c("Alt_Names","Team_Name")],Alt_Names != "N/A")
+
 
 elo_history <- vector(mode= "list", length= length(ref_names$Alt_Names))
 names(elo_history) <- ref_names$Alt_Names
@@ -135,6 +135,7 @@ for (i in 1:length(elo_history)){
                                    " History", ".csv", sep = ""))
 }
 
+current_elo <- filter(current_elo,current_elo$Alt_Names != "N/A")
 write.csv(current_elo, "./Data/Current Elo.csv")
 
 

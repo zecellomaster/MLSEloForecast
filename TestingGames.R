@@ -3,11 +3,15 @@
 #Date: 03/24/21 (v1.0)
 #Description: This program will take the name of two teams, home and away, then
 #             either return the chances of win/loss/draw or a dataframe of simulated
-#             match scores. This requires the SoccerEloForecast package
+#             match scores. This requires the SoccerEloForecast package. DEPRECIATED:
+#             use ScoreTable.R instead.
 #Notes: Be sure to set the working directory to the same place as where all the
 #       files are.
 
 rm(list = ls())
+start_time <- proc.time()
+
+
 
 library(SoccerEloForecast)
 
@@ -17,7 +21,7 @@ home_name <- "Real Salt Lake"
 away_name <- "Vancouver Whitecaps"
 home_status <- TRUE #Whether or not the game is at the home team's stadium
 match_date_raw <- "09/19/2020"
-return_what <- 1 #"chances"
+return_what <- 15000 #"chances"
 bos <- FALSE #Set if this is the first game of the season
 starting_elo <- 1500 #The value used as the starting/average Elo
 
@@ -123,4 +127,8 @@ if (home_elo >= away_elo){
     print(chances)
   }
   
-}
+  }
+
+end_time <- proc.time()
+
+print(end_time - start_time)
