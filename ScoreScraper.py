@@ -2,7 +2,7 @@
 """
 Created on Thu Apr  1 14:28:56 2021
 
-@author: Amanze Ejiogu
+@author: zecellomaster
 
 Name: ScoreScraper.py 
 Description: Script that retrieves schedules and scores of the MLS season from
